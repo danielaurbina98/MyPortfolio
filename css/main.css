@@ -1,0 +1,411 @@
+:root{
+    /* Colores*/
+    --backgroundcolor: #F6F6F6;
+    --lightpink: #F5E5E5;
+    --greypink: #E4D5D5;
+    --lightgrey: #C4C4C4;
+   
+}
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
+}
+
+.inicial{
+    width: 100%;
+    max-width: 2000px;
+    height: 764px;
+    display: grid;
+    background-color: #F6F6F6;
+    grid-template: repeat(10, 1fr) / repeat(15, 1fr);
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url("../assets/icons/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 10px;
+    top: 10px;
+}
+
+.pinkspace{
+    grid-column: 9 / 16;
+    grid-row: 1 / 7;
+    background-color: var(--lightpink);
+}
+
+.home{
+    grid-column: 7;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    grid-column: 7;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutme{
+    grid-column: 8;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.education{
+    position: relative;
+    grid-column: 9;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    left: 25px;
+}
+
+.skills{
+    position: relative;
+    grid-column: 10;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    left: 50px;
+}
+
+.contact{
+    position: relative;
+    grid-column: 11 / 13;
+    grid-row: 1 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    align-self: center;
+    justify-content: center;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    left: 40px;
+    
+}
+
+.gitlogo{
+    
+    width: 51px;
+    height: 49px;
+    grid-column: 13 / 14;
+    grid-row: 1 / 2;
+    background-image: url(../assets/icons/git.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.inicial a:hover{
+    color: lightgray;
+}
+
+.arrow{
+    position: relative;
+    width: 66px;
+    height: 61px;
+    grid-column: 13;
+    grid-row: 2 / 3;
+    background-image: url(../assets/icons/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    justify-self: center;
+    transform: rotate(-27.06deg);
+    right: 30px;
+}
+
+.textarrow{
+    position: relative;
+    grid-column: 13 / 14;
+    grid-row: 3 / 4;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: black;
+    left: 15px;
+    bottom: 15px;
+}
+
+.starspng{
+    grid-column: 8 / 16;
+    grid-row: 5 / 10;
+    background-image: url(../assets/icons/stars.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photome{
+    grid-column: 7 / 11;
+    grid-row: 3 / 8;
+    background-image: url(../assets/img/me1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myname{
+    grid-column: 2 / 8;
+    grid-row: 6;
+    background-image: url(../assets/icons/myname.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.textdes{
+    grid-column: 2 / 8;
+    grid-row: 7 / 9;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+}
+
+.secaboutme{
+    width: 100%;
+    max-width: 2000px;
+    height: 477px;
+    background-color: rgba(228, 213, 213, 0.74);
+}
+
+.aboutmecontainer{
+    display: flex;
+    position: relative;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; 
+    gap: 180px;
+}
+
+.plants{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width:  571px;
+    height: 800px;
+    background-image: url(../assets/icons/plants-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.me2{
+    width: 345px;
+    min-width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    background-image: url(../assets/img/fotoacta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #FFFFFF;
+    z-index: 2;
+}
+
+.infoam{
+    margin-top: 20px;
+    width: 421px;
+    min-width: 300px;
+    height: 433px;
+    background-color: #F3F3F3;
+    align-content: center;
+    z-index: 2;
+}
+
+.textaboutcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+
+}
+
+.titleabout{
+    align-self: center;
+    margin-top: 20px;
+    font-size: 29px;
+    font-style: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.contentam{
+    margin-top: 25px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+}
+
+.contentam2{
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+}
+
+.contentam3{
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+}
+
+.contactcontainer{
+    width: 100%;
+    height: 881px;
+    background-color: #F6F6F6;
+    max-width: 2000px;
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+.contactdiv{
+    grid-column: 1 / 13;
+    grid-row: 1/ 13;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    background-image: url(../assets/icons/SeekPng.com_scribble-png_249091.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.textcontainer{
+    display: flex;
+    grid-column: 3 / 7;
+    grid-row: 2 / 8;
+    background-color: #F6F6F6;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacttitle{
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.emailcontact{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.linkcontact{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-top: 60px;
+
+}
+
+.buttoncontact{
+    width: 169px;
+    height: 47px;
+    background-color: #C4C4C4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    border-bottom: none;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.contactdiv button:hover{
+    background-color: lightgray;
+   
+}
+

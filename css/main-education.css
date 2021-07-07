@@ -1,0 +1,172 @@
+:root{
+    /* Colores*/
+    --backgroundcolor: #F6F6F6;
+    --lightpink: #F5E5E5;
+    --greypink: #E4D5D5;
+    --lightgrey: #C4C4C4;
+   
+}
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    max-width: 2000px;
+    min-width: 1127px;
+    height: auto;
+}
+
+
+.uniinfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titlesys{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.uniinfocontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 477px;
+    background-color: var(--lightpink);
+    gap: 60px;
+
+}
+
+.logouni {
+    width: 544px;
+    height: 254px;
+    background-image: url(../assets/icons/logounimet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 98px;
+}
+
+.textuni{
+    display: flex;
+    flex-direction: column;
+    width: 521px;
+    height: 433px;
+    padding-top:45px;
+    background-color: #F3F3F3;
+    margin-top: 22px;
+    align-content: center;
+}
+
+.textuni2 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+.onlineinfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.titlefront{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.onlineinfocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 477px;
+    background-color: var(--lightpink);
+    gap: 25px;
+}
+
+.logoplat{
+    width: 576px;
+    height: 221px;
+    background-image: url(../assets/icons/Platzipng.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 98px;
+}
+
+.texton{
+    display: flex;
+    flex-direction: column;
+    width: 521px;
+    height: 433px;
+    padding-top:45px;
+    background-color: #F3F3F3;
+    margin-top: 22px;
+    align-content: center;
+}
+
+.texton p {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.texton ul{
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+    align-self: center;
+
+}
+
+.texton li{
+    margin-bottom: 4px;
+}
