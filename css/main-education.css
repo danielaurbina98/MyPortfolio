@@ -23,7 +23,7 @@ main {
     background-color: var(--backgroundcolor);
     width: 100%;
     max-width: 2000px;
-    min-width: 1127px;
+    min-width: 1171px;
     height: auto;
 }
 
